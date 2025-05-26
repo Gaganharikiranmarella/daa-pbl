@@ -1,83 +1,62 @@
-// src/keywords.js
-export const keywords = {
-  SingleSourceShortestPath: [
-    "shortest path", "dijkstra", "sssp", "single source", "graph path",
-    "distance", "weighted graph", "edges", "vertices", "relaxation",
-    "priority queue", "heap", "source vertex", "adjacency list", "edge weights",
-    "pathfinding", "minimum distance", "graph traversal", "network routing",
-    "bellman ford", "shortest route", "graph algorithm", "cost", "update distance",
-    "path cost", "vertex", "directed graph", "undirected graph", "graph theory",
-    "optimal path", "dynamic programming", "graph edges", "shortest route",
-    "queue", "set", "visited", "relax edges", "update path",
-    "distance array", "weight", "graph representation", "graph node",
-    "graph problem", "vertex set", "graph edge", "complexity", "graph traversal",
-    "graph search", "graph data structure", "DAG", "cycle detection", "graph optimization"
+export const keywordMap = {
+  dijkstra: [
+    "shortest path", "dijkstra", "single source", "sssp", "route", "minimum cost", "graph travel",
+    "one to all", "source to destination", "network path", "least cost path", "pathfinding", "routing", "find path",
+    "map direction", "travel cost", "minimum path", "shortest distance", "navigate", "source node", "destination node",
+    "directed graph", "undirected graph", "vertex distance", "weight", "dijkstra's algo", "queue", "greedy path", 
+    "start node", "end node", "shortest edge", "city map", "navigation", "gps routing", "priority queue",
+    "graph weight", "edge cost", "single point source", "quickest path", "point to point", "dijkstra method",
+    "minimum route", "search graph", "weighted graph", "edge list", "path optimization", "cheapest path", "distance minimization",
+    "optimal route", "graph path"
   ],
-
-  JobSequencing: [
-    "job sequencing", "deadline", "jobs", "sequence", "task scheduling",
-    "profit", "greedy", "time slots", "deadlines", "maximize profit",
-    "job scheduling", "task order", "deadline constraints", "job order",
-    "max profit", "priority", "job array", "deadline array", "profit array",
-    "job selection", "greedy algorithm", "schedule", "tasks", "job problem",
-    "time management", "optimal scheduling", "task completion", "profit maximization",
-    "job set", "deadline scheduling", "job deadline", "job profit", "maximum profit",
-    "job tasks", "schedule jobs", "time slot allocation", "deadlines met",
-    "task profit", "job constraints", "deadline order", "maximize tasks",
-    "task sequence", "jobs list", "job priority", "deadline limit", "job planner",
-    "profit optimization", "task ordering", "job arrangement", "deadline allocation"
+  jobsequencing: [
+    "job sequencing", "deadline", "max profit", "schedule jobs", "greedy", "profit maximization", "job slots",
+    "slot allocation", "time slots", "tasks and deadlines", "job schedule", "optimal job", "task profit", 
+    "maximum earning", "earnings", "job priorities", "task order", "time allocation", "profit-based", "select jobs",
+    "profit job", "deadline job", "greedy job", "job queue", "high profit first", "maximize reward", "deadline problem",
+    "job arrange", "assign jobs", "optimal sequence", "priority job", "task priority", "slot greedy", "order jobs",
+    "task optimization", "arrange jobs", "ordered tasks", "job slots", "profit schedule", "profitable job", 
+    "job assignment", "time constraints", "task lineup", "job selection", "greedy schedule", "optimize jobs",
+    "top profit", "limited time job", "best profit jobs", "task timing"
   ],
-
-  NQueens: [
-    "n queens", "chess", "queens", "backtracking", "arrangement",
-    "board", "row", "column", "diagonal", "safe position",
-    "conflict", "recursive", "positions", "solutions", "place queens",
-    "chessboard", "attack", "N*N", "no two queens", "safe placement",
-    "constraints", "backtrack", "row wise", "column wise", "recursive call",
-    "solution count", "valid position", "search tree", "constraint satisfaction",
-    "problem solving", "chess problem", "place queen", "conflict check",
-    "candidate solution", "branches", "depth first search", "queen positions",
-    "N queens puzzle", "board configuration", "recursive algorithm", "solution set",
-    "state space", "pruning", "safe move", "row conflicts", "column conflicts",
-    "diagonal conflicts", "backtracking tree", "recursive backtracking"
+  nqueens: [
+    "n queens", "chess board", "place queens", "no attack", "queen placement", "backtracking", "recursion", 
+    "solve board", "n x n", "board configuration", "place n queens", "queen conflict", "safe position", 
+    "diagonal attack", "column attack", "row attack", "check safety", "valid queen", "queen puzzle", 
+    "recursive placement", "n size board", "avoid attack", "row column", "constraint satisfaction", "chess puzzle",
+    "non attacking", "queen positioning", "backtrack search", "nqueen logic", "grid solution", "board attack",
+    "place chess", "recursive queen", "backtrack queen", "no two queens", "chess challenge", "attack free",
+    "block attack", "solution board", "row safe", "recursive backtrack", "solving queens", "backtracking approach",
+    "multi queen", "chess grid", "place all queens", "find placements", "queen board", "no threat", "nqueen task"
   ],
-
-  Knapsack: [
-    "knapsack", "0/1 knapsack", "capacity", "weight", "value",
-    "items", "dynamic programming", "maximize value", "weight limit", "profit",
-    "include exclude", "item selection", "optimal solution", "DP table", "recursive",
-    "memoization", "subproblems", "fractional knapsack", "backpack", "limit",
-    "bag capacity", "weights array", "values array", "max profit", "knapsack problem",
-    "capacity constraint", "profit maximization", "item weight", "item value", "select items",
-    "optimal packing", "weight constraint", "dynamic solution", "knapsack capacity",
-    "knapsack value", "solution set", "knapsack algorithm", "weight optimization",
-    "profit calculation", "subset", "include item", "exclude item", "total value",
-    "best value", "weight sum", "capacity check", "item count", "knapsack max"
+  knapsack: [
+    "knapsack", "0/1 knapsack", "maximize value", "limited weight", "choose items", "bag value", "value weight",
+    "item selection", "binary knapsack", "max profit", "item list", "capacity", "dynamic programming", "dp knapsack",
+    "fill bag", "limited capacity", "value maximize", "weight constraint", "profit weight", "pack bag",
+    "weight restriction", "choose best", "optimize value", "weight value ratio", "profit max", "dp table", 
+    "recursive knapsack", "fill knapsack", "item limit", "pack sack", "capacity check", "maximize worth",
+    "item weight", "item worth", "weight limit", "bag space", "limited bag", "select few", "greedy check",
+    "dp array", "dp matrix", "item choice", "bag filling", "valuable items", "constrained weight", "fill limit",
+    "total value", "item profit", "knapsack limit"
   ],
-
-  Kruskal: [
-    "kruskal", "mst", "minimum spanning tree", "edges", "graph",
-    "union find", "disjoint set", "cycle detection", "sort edges", "greedy",
-    "connected components", "forest", "graph edges", "edge weights", "undirected graph",
-    "weight", "edge selection", "union", "find", "sets",
-    "graph nodes", "tree edges", "optimal tree", "minimum cost", "edge list",
-    "vertex", "connected graph", "graph algorithm", "graph representation", "minimum connection",
-    "spanning forest", "graph traversal", "edge sorting", "union by rank", "path compression",
-    "algorithm steps", "graph vertices", "minimum spanning", "kruskal's algorithm", "cycle check",
-    "edge inclusion", "disjoint sets", "edge weight", "graph theory", "graph problem",
-    "edge set", "spanning tree", "greedy approach", "connectedness", "graph structure"
+  kruskal: [
+    "kruskal", "minimum spanning tree", "mst", "graph", "disjoint set", "union find", "edge sorting",
+    "least edge", "spanning tree", "connect graph", "kruskal's algo", "cycle avoid", "minimum weight", 
+    "connect nodes", "all nodes", "undirected graph", "forest", "lightest edge", "build tree", "edge weight",
+    "greedy algorithm", "select edge", "no cycle", "kruskal method", "graph tree", "safe edge", "sort edges", 
+    "edge greedy", "connectivity", "connected components", "minimal tree", "weighted graph", "graph span",
+    "merge trees", "union graph", "forest to tree", "minimum links", "kruskal path", "build mst", "connectivity tree",
+    "set merging", "graph safe edge", "cheapest edge", "sort all edges", "priority edge", "minimum edge group", 
+    "minimum link", "disjoint trees", "join components"
   ],
-
-  Prim: [
-    "prim", "mst", "minimum spanning tree", "graph", "edges",
-    "priority queue", "heap", "greedy", "connected graph", "vertex",
-    "visited set", "edge weights", "adjacency list", "graph nodes", "minimum cost",
-    "tree edges", "graph traversal", "start vertex", "edge selection", "weight",
-    "update key", "graph algorithm", "optimal tree", "minimum connection", "include vertex",
-    "exclude vertex", "graph representation", "graph structure", "spanning tree", "edge priority",
-    "graph search", "distance", "edge set", "vertex set", "visited vertices",
-    "edge relaxation", "graph edges", "graph problem", "tree construction", "greedy choice",
-    "connectedness", "graph theory", "algorithm steps", "heap data structure", "vertex priority",
-    "adjacent vertices", "graph vertices", "minimum spanning", "edge cost", "visited nodes"
-  ],
+  prims: [
+    "prim", "prims algorithm", "minimum spanning tree", "mst", "connect graph", "greedy mst", "vertex-based",
+    "adjacency list", "priority queue", "edge selection", "connect nodes", "build mst", "shortest link", 
+    "edge min", "visited nodes", "min cost edge", "minimum links", "connect all", "spanning edge", 
+    "tree graph", "link nodes", "add vertex", "prim approach", "minimum weight", "min cost connect", 
+    "mst generation", "greedy method", "select minimum", "adjacency matrix", "incremental build", 
+    "visited set", "expanding tree", "find mst", "connectivity graph", "graph links", "build tree", 
+    "greedy edge", "node connect", "minimum addition", "expand mst", "shortest connections", 
+    "min heap", "vertex greedy", "weight add", "mst links", "prim tree", "graph traversal", "minimum build"
+  ]
 };
