@@ -1,6 +1,7 @@
 // src/algorithms/Knapsack.jsx
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import '../App.css';
 
 export default function Knapsack() {
   const [capacity, setCapacity] = useState("");

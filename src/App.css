@@ -1,0 +1,33 @@
+/* App.css - Global styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0; padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.3s ease;
+}
+
+body, html, #root {
+  height: 100%;
+  background: #f9fafb;
+  color: #222;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 2rem 1.5rem;
+  background: white;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.08);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+h1, h2 {
+  font-weight: 700;
+  color: #111827;
+  user-select: none;
+  text-align: center;
+}

@@ -1,0 +1,45 @@
+/* Home/App page */
+
+textarea {
+  width: 100%;
+  min-height: 140px;
+  padding: 1rem 1.2rem;
+  font-size: 1.1rem;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  resize: vertical;
+  box-shadow: inset 2px 2px 6px #f0f0f0;
+  outline-offset: 2px;
+  color: #333;
+}
+
+textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 10px #2563ebaa;
+}
+
+button.generate-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.75rem 2.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 6px 15px #2563ebaa;
+  user-select: none;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+button.generate-btn:hover {
+  background: #1e40af;
+  box-shadow: 0 8px 20px #1e40afcc;
+}
+
+button.generate-btn:active {
+  background: #1e3a8a;
+  box-shadow: 0 4px 10px #1e3a8acc;
+}
