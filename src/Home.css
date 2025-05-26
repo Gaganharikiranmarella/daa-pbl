@@ -8,8 +8,8 @@
 
 body {
   margin: 0;
-  background: #121212;
-  color: #eee;
+  background: linear-gradient(135deg, #ffe29f, #ffa99f);
+  color: #222;
   font-family: 'Poppins', sans-serif;
   display: flex;
   justify-content: center;
@@ -18,14 +18,14 @@ body {
 }
 
 .app-container {
-  background: #1f1f1f;
+  background: #fff0f5;
   padding: 40px 30px 60px;
   border-radius: 15px;
   width: 100%;
   max-width: 720px;
   box-shadow:
-    0 8px 16px rgba(0,0,0,0.8),
-    inset 0 0 60px #00ffff33;
+    0 8px 16px rgba(0, 0, 0, 0.2),
+    inset 0 0 40px #ffd1dcaa;
   position: relative;
 }
 
@@ -34,55 +34,54 @@ h1 {
   font-size: 2.4rem;
   text-align: center;
   margin-bottom: 35px;
-  color: #00e5ff;
-  text-shadow: 0 0 10px #00e5ffcc;
+  color: #ff4081;
+  text-shadow: 0 0 10px #ff80ab;
 }
 
 /* ===== TEXTAREA ===== */
 textarea {
   width: 100%;
-  background: #111;
-  color: #eee;
+  background: #fff8f0;
+  color: #222;
   border: none;
   border-radius: 12px;
   padding: 15px 18px;
   font-size: 1.1rem;
   resize: vertical;
-  box-shadow: inset 0 0 12px #00fff7aa;
+  box-shadow: inset 0 0 12px #ffcdd2;
   outline-offset: 3px;
-  outline-color: #00e5ff88;
+  outline-color: #ff80ab88;
 }
 
 textarea:focus {
-  outline-color: #00e5ffcc;
-  box-shadow: inset 0 0 15px #00e5ffcc;
+  outline-color: #ff4081;
+  box-shadow: inset 0 0 15px #ff80ab;
   transform: scale(1.02);
 }
 
 /* ===== BUTTONS ===== */
 button {
   cursor: pointer;
-  background: linear-gradient(135deg, #00e5ff, #00a8ff);
+  background: linear-gradient(135deg, #ff8a65, #f06292);
   border: none;
   padding: 14px 32px;
   font-size: 1.1rem;
   font-weight: 600;
-  color: #121212;
+  color: #fff;
   border-radius: 40px;
   margin-top: 25px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   box-shadow:
-    0 6px 10px #00e5ffaa,
-    0 0 20px #00e5ff55;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+    0 6px 10px #ff80abaa,
+    0 0 20px #ffb6c188;
 }
 
 button:hover {
   box-shadow:
-    0 8px 20px #00ffffcc,
-    0 0 30px #00ffffcc;
+    0 8px 20px #ff80abcc,
+    0 0 30px #ff4081cc;
   transform: scale(1.1);
 }
 
@@ -97,43 +96,43 @@ button:hover {
 }
 
 .floating-buttons button {
-  background: linear-gradient(135deg, #ff005f, #ff4081);
-  color: white;
+  background: linear-gradient(135deg, #00c9ff, #92fe9d);
+  color: #222;
   padding: 10px 18px;
   font-weight: 700;
   border-radius: 50px;
   box-shadow:
-    0 4px 10px #ff005faa,
-    0 0 20px #ff4081cc;
+    0 4px 10px #00c9ffaa,
+    0 0 20px #92fe9dcc;
   transition: all 0.3s ease;
   min-width: 80px;
 }
 
 .floating-buttons button:hover {
   box-shadow:
-    0 6px 20px #ff4081ff,
-    0 0 40px #ff005fff;
+    0 6px 20px #00c9ffff,
+    0 0 40px #92fe9dff;
   transform: scale(1.15);
-  background: linear-gradient(135deg, #ff4081, #ff005f);
+  background: linear-gradient(135deg, #92fe9d, #00c9ff);
 }
 
 /* ===== ALGORITHM PAGES LAYOUT ===== */
 .algorithm-container {
-  background: #222;
+  background: #fffaf0;
   padding: 30px 35px;
   border-radius: 18px;
   box-shadow:
-    0 10px 25px rgba(0,0,0,0.8),
-    inset 0 0 40px #00ffff22;
+    0 10px 25px rgba(0, 0, 0, 0.2),
+    inset 0 0 40px #ffe0b2aa;
   margin-top: 40px;
   position: relative;
 }
 
 .algorithm-container h2 {
-  color: #00e5ff;
+  color: #f06292;
   margin-bottom: 25px;
   font-weight: 600;
-  text-shadow: 0 0 8px #00e5ffcc;
+  text-shadow: 0 0 8px #f8bbd0;
 }
 
 /* ===== INPUT FIELDS ===== */
@@ -144,33 +143,33 @@ button:hover {
   padding: 12px 16px;
   border-radius: 10px;
   border: none;
-  background: #111;
-  color: #eee;
+  background: #fef9f9;
+  color: #333;
   font-size: 1rem;
-  box-shadow: inset 0 0 10px #00ffffaa;
+  box-shadow: inset 0 0 10px #ffccbc;
   margin-bottom: 20px;
   outline-offset: 3px;
-  outline-color: #00e5ff88;
+  outline-color: #ffab91;
 }
 
 .algorithm-container input[type="number"]:focus,
 .algorithm-container input[type="text"]:focus,
 .algorithm-container select:focus {
-  outline-color: #00e5ffcc;
-  box-shadow: inset 0 0 12px #00e5ffcc;
+  outline-color: #f06292;
+  box-shadow: inset 0 0 12px #f06292aa;
   transform: scale(1.02);
 }
 
 /* ===== RESULT BOX ===== */
 .result-box {
-  background: #111;
+  background: #fffde7;
   border-radius: 12px;
   padding: 18px 22px;
-  box-shadow: inset 0 0 25px #00e5ffaa;
+  box-shadow: inset 0 0 25px #ffd54f;
   margin-top: 25px;
   font-size: 1.1rem;
   min-height: 80px;
-  color: #0ff;
+  color: #f57c00;
   white-space: pre-wrap;
 }
 
