@@ -6,8 +6,8 @@ import Dijkstra from './algorithms/Dijkstra';
 import JobSequencing from './algorithms/JobSequencing';
 import NQueens from './algorithms/NQueens';
 import Knapsack from './algorithms/Knapsack';
-import Kruskal from './algorithms/Kruskal';
-import Prims from './algorithms/Prims';
+import BFS from './algorithms/BFS';
+import DFS from './algorithms/DFS';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,8 +18,8 @@ root.render(
       <Route path="/jobsequencing" element={<JobSequencing />} />
       <Route path="/nqueens" element={<NQueens />} />
       <Route path="/knapsack" element={<Knapsack />} />
-      <Route path="/kruskal" element={<Kruskal />} />
-      <Route path="/prims" element={<Prims />} />
+      <Route path="/bfs" element={<BFS />} />
+      <Route path="/dfs" element={<DFS />} />
     </Routes>
   </BrowserRouter>
 );
